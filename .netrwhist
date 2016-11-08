@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/zz/catkin_ws/src/mastering_ros_demo_pkg'
+let g:netrw_dirhist_2='/home/zz/catkin_ws/src/moveit_pr2/pr2_moveit_config/launch'
+let g:netrw_dirhist_3='/home/zz/catkin_ws/src/moveit_pr2/pr2_moveit_config/config'
+let g:netrw_dirhist_4='/home/zz/catkin_ws/src/my_arm_config/config'
+let g:netrw_dirhist_5='/home/zz/catkin_ws/src/threedof_manipulator_config/launch'
+let g:netrw_dirhist_6='/home/zz/catkin_ws/src/threedof_manipulator_control/src'
+let g:netrw_dirhist_7='/etc/apache2/sites-available'
