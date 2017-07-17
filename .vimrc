@@ -29,7 +29,7 @@ call vundle#rc()
 " Bundle 'scrooloose/syntastic'
 " Bundle 't9md/vim-quickhl'
 " Bundle 'majutsushi/tagbar'
- Bundle 'vim-scripts/taglist.vim'
+" Bundle 'vim-scripts/taglist.vim'
 " Bundle "vim-scripts/DoxygenToolkit.vim"
 " Bundle 'vim-scripts/cscope.vim'
 " Bundle 'wesleyche/SrcExpl'
