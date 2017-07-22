@@ -28,9 +28,10 @@ call vundle#rc()
 " Bundle 'Valloric/YouCompleteMe'
 " Bundle 'scrooloose/syntastic'
 " Bundle 't9md/vim-quickhl'
-" Bundle 'majutsushi/tagbar'
+ Bundle 'majutsushi/tagbar'
 " Bundle 'vim-scripts/taglist.vim'
 " Bundle "vim-scripts/DoxygenToolkit.vim"
+ Bundle 'vim-scripts/Conque-GDB'
 " Bundle 'vim-scripts/cscope.vim'
 " Bundle 'wesleyche/SrcExpl'
 " Bundle 'wesleyche/Trinity'
@@ -69,7 +70,7 @@ filetype plugin indent on
 "nnoremap <leader>e :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 nmap <F3> :TagbarToggle<CR>
-autocmd BufReadPost *.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
+"autocmd BufReadPost *.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
 let g:tagbar_ctags_bin='/usr/bin/ctags'
 let g:tagbar_width=30
 let g:tagbar_left=1
