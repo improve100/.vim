@@ -19,3 +19,6 @@ git submodule add 仓库地址 路径
 2.进入选择模式 ctrl+w [ space 选择  enter 确认 ctrl+w ] 粘贴
 3.退出 ctrl+d 
 
+vim 无法复制到系统剪切板
+sudo apt-get install vim vim-scripts vim-gtk vim-gnome
+vim --version | grep clipboard
