@@ -12,3 +12,13 @@ git submodule add 仓库地址 路径
 命令执行完成，会在当前工程根路径下生成一个名为“.gitmodules”的文件，其中记录了子模块的信息。添加完成以后，再将子模块所在的文件夹添加到工程中即可。
 
 3.submodule的删除稍微麻烦点：首先，要在“.gitmodules”文件中删除相应配置信息。然后，执行“git rm –cached ”命令将子模块所在的文件从git中删除。
+
+
+#.tmux
+1.分离窗口 ctrl+w % ctrl+w "
+2.进入选择模式 ctrl+w [ space 选择  enter 确认 ctrl+w ] 粘贴
+3.退出 ctrl+d 
+
+vim 无法复制到系统剪切板
+sudo apt-get install vim vim-scripts vim-gtk vim-gnome
+vim --version | grep clipboard
