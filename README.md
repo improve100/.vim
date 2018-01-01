@@ -22,3 +22,11 @@ git submodule add 仓库地址 路径
 vim 无法复制到系统剪切板
 sudo apt-get install vim vim-scripts vim-gtk vim-gnome
 vim --version | grep clipboard
+
+ycm vim支持python2
+准备工作：
+1. 首先查看vim对于python的支持：vim --version |grep pthon
+将对python3的支持切换成python2的支持
+安装py2包：sudo apt-get install vim-nox-py2
+切换支持的命令：sudo update-alternatives --config vim
+手动切换py2和py3
